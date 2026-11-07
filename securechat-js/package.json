@@ -1,0 +1,13 @@
+{
+  "name": "securechat",
+  "version": "1.0.0",
+  "description": "End-to-end encrypted chat with an X3DH handshake and Double Ratchet (Node.js)",
+  "license": "MIT",
+  "engines": { "node": ">=16" },
+  "scripts": {
+    "server": "node src/server.js",
+    "test": "node tests/run.js",
+    "capture": "node scripts/capture_demo.js",
+    "demo": "node scripts/demo_conversation.js"
+  }
+}
